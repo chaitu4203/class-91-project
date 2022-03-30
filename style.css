@@ -1,0 +1,84 @@
+#tab{
+    background-color:rgb(154, 231, 0);
+    height:60px;
+}
+#abc{
+    height:50px;
+    width:100px;
+    padding-left: 10px;
+}
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    padding-left: 30px;
+    color:rgb(223, 0, 0);
+    
+
+}
+marquee{
+    background-color:deepskyblue;
+    font-size:17px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#abc{
+text-align:center;
+}
+#player_1_Login{
+text-align: center;
+background-color: gold;
+border-radius:20px;
+width:650px;
+padding-left:25px;
+height:235px;
+}
+#note{
+    font-size: 10px;
+    color: grey;
+}
+#name{
+    font-size:20px;
+}
+#player1_name_input , #player2_name_input{
+    text-align: center;
+    width:600px;
+    padding-left: 35px;;
+}
+#xyz{
+    padding-left: 300px;
+}
+button{
+    border:0px;
+    font-size:18px;
+    width:500px;
+    border-radius: 30px;
+}
+body{
+    background: linear-gradient(to bottom, #00ff99 12%, #0099cc 66%);
+}
+#a{
+color:white;
+font-size:35px;
+}
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #e20d50;
+    padding: 10px;
+    float:none;
+    text-align: left;
+}
+#no1 , #no2 , #send{
+    border-radius: 10px;
+    width:700px;
+    border:0px;
+    padding-left: 10px;
+}
+#score{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #e20d50;
+    padding: 10px;
+    float:none;
+    text-align: left;
+    text-align:center;
+}

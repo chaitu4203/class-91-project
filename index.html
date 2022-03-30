@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Math Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="quiz_game login.js"></script>
+    </head>
+    <body>
+    <section id="tab">
+        <img id="abc" src="logo.png">
+        <Label>Math Game</Label>
+    </section>
+        <marquee id="1" onmouseover="this.stop()" onmouseout="this.start()">Hey!! Welcome to Math Game.We will be updating soon.This is *Version 1.0*</marquee>
+<br>
+<br>
+<section id="xyz">
+        <section id="player_1_login">
+    <hr>
+        <label>Player 1 Login</label>
+        <hr>
+
+        <label id="name"> Name/Username</label>
+        <br>
+        <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
+        <hr>
+        <label id="note" class="bg-secondary">Note-***If you are entering username don't enter your full name.eg.Your name is Armaan so write" A!m!a!n@" like this.***</label>
+ 
+</section>
+    <section id="player_1_login">
+<hr>
+    <label>Player 2 Login</label>
+    <hr>
+
+    <label id="name"> Name/Username</label>
+    <br>
+    <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
+    <hr>
+    <label id="note" class="bg-secondary">Note-***If you are entering username don't enter your full name.eg.Your name is Armaan so write" A!m!a!n@" like this.***</label>
+    <br>
+    <br>
+    <button id="button_login" class="btn-warning" onclick="login()">Login</button>
+
+</section>
+</section>
+    </body>
+</html>
